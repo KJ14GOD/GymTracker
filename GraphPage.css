@@ -1,0 +1,9 @@
+body{
+    justify-content: center;
+}
+.highlighted-date {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+  }
+  

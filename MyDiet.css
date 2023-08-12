@@ -1,0 +1,60 @@
+   /* .diet-rectangle {
+    margin-left: 13.5px;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 8%;
+    left: 0;
+    width: 95%;
+    height: 40vh;
+    background-color: #a09999;
+  }
+   */
+
+   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card div {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .card strong {
+    font-weight: bold;
+  }
+
+  
+  .meal-box {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .breakfast-section {
+    max-height: 300px; /* Adjust the maximum height as per your preference */
+    overflow: auto;
+  }
+  

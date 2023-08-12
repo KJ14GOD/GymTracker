@@ -1,0 +1,98 @@
+.container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  max-height: 500px; /* Adjust the max-height as needed */
+}
+
+.question1 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333333;
+}
+.question2 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333333;
+  }
+  .question3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333333;
+  }
+  .question4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333333;
+  }
+  .question5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333333;
+  }
+
+.add-exercise-button {
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-exercise-button:hover {
+  background-color: #45a049;
+}
+
+.submit-button-container {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.submit-button-container button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button-container button:hover {
+  background-color: #45a049;
+}
+.create-workout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+  }
+  
+  .form-heading {
+    margin-top: 5px; /* Adjust the margin-top value as needed */
+  }
+  
+  .container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 500px; /* Adjust the max-height as needed */
+  }
+  
+  .exercise-container {
+    margin-top: 10px; /* Add margin at the top */
+    overflow-y: auto; /* Enable scrolling */
+    max-height: 300px; /* Adjust the max-height as needed */
+  }
+  
+  /* Rest of your CSS styles */
+  
